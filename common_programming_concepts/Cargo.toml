@@ -1,0 +1,78 @@
+[package]
+name = "common_programming_concepts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# 1_variables_and_mutability
+
+[[bin]]
+name = "mutability"
+path = "src/bin/1_variables_and_mutability/mutability.rs"
+
+[[bin]]
+name = "shadowing"
+path = "src/bin/1_variables_and_mutability/shadowing.rs"
+
+# 2_data_types
+
+[[bin]]
+name = "data_types"
+path = "src/bin/2_data_types/data_types.rs"
+
+[[bin]]
+name = "integer_type"
+path = "src/bin/2_data_types/integer_type.rs"
+
+[[bin]]
+name = "numeric_operations"
+path = "src/bin/2_data_types/numeric_operations.rs"
+
+[[bin]]
+name = "character_types"
+path = "src/bin/2_data_types/character_types.rs"
+
+[[bin]]
+name = "tuple_type"
+path = "src/bin/2_data_types/tuple_type.rs"
+
+[[bin]]
+name = "array_type"
+path = "src/bin/2_data_types/array_type.rs"
+
+# 3_functions
+
+[[bin]]
+name = "functions"
+path = "src/bin/3_functions/functions.rs"
+
+[[bin]]
+name = "parameters"
+path = "src/bin/3_functions/parameters.rs"
+
+[[bin]]
+name = "statements_expressions"
+path = "src/bin/3_functions/statements_expressions.rs"
+
+[[bin]]
+name = "return_values"
+path = "src/bin/3_functions/return_values.rs"
+
+# 5_control_flow
+
+[[bin]]
+name = "if"
+path = "src/bin/5_control_flow/if.rs"
+
+[[bin]]
+name = "loop"
+path = "src/bin/5_control_flow/loop.rs"
+
+[[bin]]
+name = "while"
+path = "src/bin/5_control_flow/while.rs"
+
+[[bin]]
+name = "for"
+path = "src/bin/5_control_flow/for.rs"
