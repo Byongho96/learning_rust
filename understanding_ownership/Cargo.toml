@@ -1,0 +1,69 @@
+[package]
+name = "understanding_ownership"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# 1_what_is_ownership
+
+[[bin]]
+name = "variables_and_data_interacting_with_move"
+path = "src/bin/1_what_is_ownership/variables_and_data_interacting_with_move.rs"
+
+[[bin]]
+name = "scope_and_assignment"
+path = "src/bin/1_what_is_ownership/scope_and_assignment.rs"
+
+[[bin]]
+name = "variables_and_data_interacting_with_clone"
+path = "src/bin/1_what_is_ownership/variables_and_data_interacting_with_clone.rs"
+
+[[bin]]
+name = "stack_only_data"
+path = "src/bin/1_what_is_ownership/stack_only_data.rs"
+
+[[bin]]
+name = "ownership_and_functions"
+path = "src/bin/1_what_is_ownership/ownership_and_functions.rs"
+
+[[bin]]
+name = "return_values_and_scope"
+path = "src/bin/1_what_is_ownership/return_values_and_scope.rs"
+
+# 2_references_and_borrowing
+
+[[bin]]
+name = "references_and_borrowing"
+path = "src/bin/2_references_and_borrowing/references_and_borrowing.rs"
+
+[[bin]]
+name = "mutable_references"
+path = "src/bin/2_references_and_borrowing/mutable_references.rs"
+
+[[bin]]
+name = "dangling_references"
+path = "src/bin/2_references_and_borrowing/dangling_references.rs"
+
+# 3_the_slice_type
+
+[[bin]]
+name = "the_slice_type"
+path = "src/bin/3_the_slice_type/the_slice_type.rs"
+
+[[bin]]
+name = "string_slices"
+path = "src/bin/3_the_slice_type/string_slices.rs"
+
+[[bin]]
+name = "string_literals_as_slices"
+path = "src/bin/3_the_slice_type/string_literals_as_slices.rs"
+
+[[bin]]
+name = "string_literals_as_parameters"
+path = "src/bin/3_the_slice_type/string_literals_as_parameters.rs"
+
+[[bin]]
+name = "other_slices"
+path = "src/bin/3_the_slice_type/other_slices.rs"
+

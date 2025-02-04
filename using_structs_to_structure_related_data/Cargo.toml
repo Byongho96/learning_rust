@@ -1,0 +1,54 @@
+[package]
+name = "using_structs_to_structure_related_data"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# 1_defining_and_instantiating_structs
+
+[[bin]]
+name = "defining_and_instantiating_structs"
+path = "src/bin/1_defining_and_instantiating_structs/defining_and_instantiating_structs.rs"
+
+name = "using_the_field_init_shorthand"
+path = "src/bin/1_defining_and_instantiating_structs/using_the_field_init_shorthand.rs"
+
+name = "creating_instances_from_other_instances_with_struct_update_syntax"
+path = "src/bin/1_defining_and_instantiating_structs/creating_instances_from_other_instances_with_struct_update_syntax.rs"
+
+name = "using_tuple_structs_without_named_fields_to_create_different_types"
+path = "src/bin/1_defining_and_instantiating_structs/using_tuple_structs_without_named_fields_to_create_different_types.rs"
+
+name = "unit_like_structs_without_any_fields"
+path = "src/bin/1_defining_and_instantiating_structs/unit_like_structs_without_any_fields.rs"
+
+name = "ownership_of_struct_data"
+path = "src/bin/1_defining_and_instantiating_structs/ownership_of_struct_data.rs"
+
+# 2_an_example_program_using_structs
+
+[[bin]]
+name = "area_of_rectangles"
+path = "src/bin/2_an_example_program_using_structs/area_of_rectangles.rs"
+
+name = "print_struct"
+path = "src/bin/2_an_example_program_using_structs/print_struct.rs"
+
+name = "debug_struct"
+path = "src/bin/2_an_example_program_using_structs/debug_struct.rs"
+
+# 3_method_syntax
+
+[[bin]]
+name = "defining_methods"
+path = "src/bin/3_method_syntax/defining_methods.rs"
+
+name = "where_is_the_arrow_functions"
+path = "src/bin/3_method_syntax/where_is_the_arrow_functions.rs"
+
+name = "methods_with_more_parameters"
+path = "src/bin/3_method_syntax/methods_with_more_parameters.rs"
+
+name = "associated_functions"
+path = "src/bin/3_method_syntax/associated_functions.rs"
